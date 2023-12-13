@@ -2,7 +2,7 @@
   "compilerOptions": {
     "rootDir": ".",
     "paths": {
-      "@react-native/start-utils": ["./src/index"]
+      "react-native-start-utils": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,

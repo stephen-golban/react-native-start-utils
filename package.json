@@ -1,6 +1,7 @@
 {
-  "name": "@react-native/start-utils",
-  "version": "0.1.0",
+  "name": "react-native-start-utils",
+  "private": false,
+  "version": "0.1.1",
   "description": "Utilities to get you started with you react native app",
   "main": "lib/commonjs/index.js",
   "module": "lib/module/index.js",
@@ -25,7 +26,7 @@
     "!**/.*"
   ],
   "scripts": {
-    "example": "yarn workspace @react-native/start-utils-example",
+    "example": "yarn workspace react-native-start-utils-example",
     "typecheck": "tsc --noEmit",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
     "clean": "del-cli lib",
@@ -48,6 +49,7 @@
   },
   "homepage": "https://github.com/stephen-golban/react-native-start-utils#readme",
   "publishConfig": {
+    "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
